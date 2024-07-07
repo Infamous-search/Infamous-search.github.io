@@ -1,0 +1,35 @@
+body {
+  background-color: #1e4d79;
+}
+.bg img {
+  background-image: url(img/bg.png);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -100;
+}
+.full-window-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #f4f4f4;
+    color: #333;
+}
+#cse-hosted {
+  position: relative;
+  width: 100%;
+}
+#cse-header {
+  position: relative;
+  width: 100%;
+  background-color: #ffffffa4;
+}
+.news {
+
+}
